@@ -53,7 +53,10 @@
     <core-header-panel drawer>
 
       <core-toolbar class="{{ {'medium-tall' : !narrow} | tokenList }}">
-        <div class="bottom main-label fit"><img src="./images/gdg/GDGredblue.png" class="gdglogoBig"> {{label}} <img src="./images/gdg/GDGgreenyellow.png" class="gdglogoBig"></div>
+        <div class="bottom main-label fit">
+          <img src="./images/gdg/GDGredblue.png" class="gdglogoBig"> {{label}} 
+          <img src="./images/gdg/GDGgreenyellow.png" class="gdglogoBig">
+        </div>
         <paper-fab icon="add" id="paper_fab" hidden?="{{narrow}}" onclick="window.open('https://plus.google.com/116047476115208123051/about', '_blank');"></paper-fab>
       </core-toolbar>
 
