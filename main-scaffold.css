@@ -26,7 +26,8 @@ core-toolbar::shadow #bottomBar {
 .main-label {
   /*padding: 0 0 20px 60px;*/
   font-size: xx-large;
-  padding: 0 0 0.4em 1.3em;
+  padding: 0 0 0.4em 0;
+  text-align:center;
 }
 /* menu */
 core-menu#menu {

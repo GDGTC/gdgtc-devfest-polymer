@@ -1,4 +1,0 @@
-GDGDCsite
-=========
-
-<comingSoon>
